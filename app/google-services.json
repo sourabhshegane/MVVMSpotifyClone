@@ -34,6 +34,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305338415225:android:04eec6e502f226e714fca8",
+        "android_client_info": {
+          "package_name": "com.sourabhcodes.spotifyclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305338415225-tfo1hdfig0e9su3ovkhpoor0p080slcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCAajEQFJJmbk9BbW5IMbIY6zoMbGPw1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305338415225-tfo1hdfig0e9su3ovkhpoor0p080slcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
