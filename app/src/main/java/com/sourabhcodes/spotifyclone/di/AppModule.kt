@@ -5,6 +5,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.sourabhcodes.spotifyclone.R
+import com.sourabhcodes.spotifyclone.exoplayer.MusicServiceConnection
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -16,6 +17,11 @@ import javax.inject.Singleton
 @InstallIn(ApplicationComponent::class)
 object AppModule {
 
+    @Singleton
+    fun provideMusicServiceConnection(
+        @ApplicationContext context: Context,
+
+    ) = MusicServiceConnection(context)
     @Singleton
     @Provides
     fun provideGlideInstance(
